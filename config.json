@@ -1,0 +1,11 @@
+{
+    "architecture": [30, 64, 32, 2],
+    "learning_rate": 0.01,
+    "epochs": 500,
+    "batch_size": 32,
+    "seed": 42,
+    "test_size": 0.2,
+    "data_path": "data/data.csv",
+    "model_path": "models/model_weights.pkl",
+    "plot_path": "plots/training_curves.png"
+}

@@ -18,8 +18,6 @@ def predict(config):
     loss = model.cross_entropy_loss(y_pred_probs, y_test)
     acc = model.accuracy(X_test, y_test_cls)
 
-    print("РЕЗУЛЬТАТЫ НА ТЕСТОВОЙ ВЫБОРКЕ")
-    print("=" * 50)
     print(f"Binary Cross-Entropy Loss: {loss:.4f}")
     print(f"Accuracy:                  {acc:.4f} ({acc * 100:.2f}%)")
     print(f"Всего образцов:            {X_test.shape[0]}")
